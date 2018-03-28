@@ -1,0 +1,445 @@
+@font-face {
+	font-family: 'angrybirds';
+	src: url('angrybirds.eot')/*tpa=http://fish-farm.su/fonts/angrybirds.eot*/;
+	src: local('☺'), url('angrybirds.woff')/*tpa=http://fish-farm.su/fonts/angrybirds.woff*/ format('woff'), url('angrybirds.ttf')/*tpa=http://fish-farm.su/fonts/angrybirds.ttf*/ format('truetype'), url('angrybirds.svg')/*tpa=http://fish-farm.su/fonts/angrybirds.svg*/ format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* ############# DEFOULT ############# */
+
+a { color:#e5f6fa; text-decoration:none;}
+a:hover { text-decoration:underline; }
+body { position: relative; margin:0px; padding:0px; font-family: 'Open Sans', sans-serif; font-size:14px; }
+img { border:0px; }
+.clr { clear:both; }
+.bg { position:fixed; top:50%; left:50%; margin-top: -600px; margin-left:-1280px; z-index: -1; background: url(bg.jpg)/*tpa=http://fish-farm.su/img/bg.jpg*/ no-repeat;width:2560px;height:1200px; }
+.bk {
+	display:inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align:top;
+}
+sup {
+	font-size: 12px!important;
+	color:#ff0034;
+	text-shadow:none;
+}
+
+
+/* ############# HEADER ############# */
+header a {color: #000;} 
+.logo {
+	margin: 10px auto;
+	background: url(logo.png)/*tpa=http://fish-farm.su/img/logo.png*/ no-repeat;
+	width: 960px; 
+}
+.bird {
+	margin-left: 370px;
+	background: url(bird.png)/*tpa=http://fish-farm.su/img/bird.png*/ no-repeat;
+	width: 238px; height: 207px;
+	transition: all 0.3s;
+}
+.logo:hover .bird {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+}	
+.wrap { 
+	min-width: 768px;
+	max-width: 980px; 
+	margin:0px auto;
+}
+/* ############# SOCIAL ############# */
+.vk {
+	display: block;
+	margin: 10px auto; 
+	width: 121px; height: 201px;
+	transition: all 0.3s cubic-bezier(0, 0, 0.58, 1) 0s;
+}
+.vk {background: url(vk.png)/*tpa=http://fish-farm.su/img/vk.png*/ 0% 0% no-repeat;}
+.yt {
+	display: block;
+	margin: 10px auto; 
+	width: 110px; height: 188px;
+	transition: all 0.3s cubic-bezier(0, 0, 0.58, 1) 0s;
+}
+.yt {background: url(yt.png)/*tpa=http://fish-farm.su/img/yt.png*/ 0% 0% no-repeat;}
+.vk:hover, .yt:hover {background-position: 0% 100%;}
+/* ############# HEAD MENU ############# */
+.head_menu {
+	list-style: none;
+}
+.head_menu a {
+	float: left; margin: 5px 10px;
+	background: url(li.png)/*tpa=http://fish-farm.su/img/li.png*/ no-repeat;
+	width: 162px; height: 52px; line-height: 50px;
+	color: #fff;	text-align: center;
+	font-family: 'Russo One', sans-serif; font-size: 18px;
+
+}
+.head_menu a:hover,
+.head_menu .current {
+	background-position: 0% 100%;
+	text-decoration: none;
+}
+/* ############# COLUMN ############# */
+.col-md-8 {
+	margin-bottom: 40px;
+}
+.col-md-4 {
+
+}
+/* ############# CONTENT ############# */
+.col-md-8 {
+	position: relative;
+	background: #3DA33F;
+	border:10px solid #fdfdfd;
+	box-shadow: 0px 0px 5px 0px #000000, 0px 0px 5px 0px #000000 inset;
+	-webkit-box-shadow: 0px 0px 5px 0px #000000, 0px 0px 5px 0px #000000 inset;
+	-moz-box-shadow: 0px 0px 5px 0px #000000, 0px 0px 5px 0px #000000 inset;
+}
+.title {
+	display: table;
+	margin: 0 auto;
+	font-family: 'angrybirds';
+	font-size: 30px;
+	color: #e5f6fa;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+}
+.title_person {
+	font-family: 'angrybirds';
+	font-size: 24px;
+	color: #e5f6fa;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+}
+.price {
+	font-family: 'angrybirds';
+	font-size: 24px;
+	color: #f7d174;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+}
+.bg_blue {
+	position: relative;
+	background: #48BC41;
+	background: -moz-linear-gradient(top,  #48BC41 0%, #3DA33F 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#48BC41), color-stop(100%,#3DA33F));
+	background: -webkit-linear-gradient(top,  #48BC41 0%,#3DA33F 100%);
+	background: -o-linear-gradient(top,  #48BC41 0%,#3DA33F 100%);
+	background: -ms-linear-gradient(top,  #48BC41 0%,#3DA33F 100%);
+	background: linear-gradient(to bottom,  #48BC41 0%,#3DA33F 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48BC41', endColorstr='#ffffff',GradientType=0 );
+	padding: 10px 0; margin: 10px 0;
+	font-family: 'angrybirds';
+	font-size: 24px;
+	color: #ffffff;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+	box-shadow: 0px 0px 5px 0px #000000 inset;
+	-webkit-box-shadow: 0px 0px 5px 0px #000000 inset;
+	-moz-box-shadow: 0px 0px 5px 0px #000000 inset;	
+	min-height: 80px;
+}
+.point, .text {float: left;}
+.text {width: 400px;}
+.point {
+	padding: 10px 20px; color: #ffffff;
+	text-align: center; margin: 0 10px;
+	border:5px solid #ffffff; border-radius: 50%;
+	box-shadow: 0px 0px 5px 0px #000000, 0px 0px 5px 0px #000000 inset;
+	-webkit-box-shadow: 0px 0px 5px 0px #000000, 0px 0px 5px 0px #000000 inset;
+	-moz-box-shadow: 0px 0px 5px 0px #000000, 0px 0px 5px 0px #000000 inset;
+	cursor: pointer;
+}
+.point:hover {
+	color: #ffffff;
+	border-color: #ffffff;
+}
+.sub_text {
+	width: 470px;
+	padding: 0 10px;
+}
+.one_point,
+.two_point,
+.three_point,
+.four_point
+{position: absolute;top:50%;right:0px;cursor:pointer;transition: all 0.5s;}
+.one_point {
+	margin-top:-60px;
+	background: url(ninja.png)/*tpa=http://fish-farm.su/img/ninja.png*/ no-repeat;
+	width: 204px; height: 113px;
+}
+.one_point:hover {
+	background: url(ninja_hov.png)/*tpa=http://fish-farm.su/img/ninja_hov.png*/ no-repeat;
+	transition: all 0.5s;
+}
+.two_point {
+	margin-top:-50px;
+	background: url(pig_prison.png)/*tpa=http://fish-farm.su/img/pig_prison.png*/ no-repeat;
+	width: 251px; height: 99px;
+}
+.two_point:hover {
+	background: url(pig_prison_hov.png)/*tpa=http://fish-farm.su/img/pig_prison_hov.png*/ no-repeat;
+	transition: all 0.5s;
+}
+.three_point {
+	margin-top:-80px;
+	right: 30px;
+	background: url(pig_fly.png)/*tpa=http://fish-farm.su/img/pig_fly.png*/ no-repeat;
+	width: 167px; height: 169px;
+}
+.three_point:hover {
+	background: url(pig_fly_hov.png)/*tpa=http://fish-farm.su/img/pig_fly_hov.png*/ no-repeat;
+	transition: all 0.5s;
+}
+.four_point {
+	right: 20px;
+	margin-top:-69px;
+	background: url(birds.png)/*tpa=http://fish-farm.su/img/birds.png*/ no-repeat;
+	width: 107px; height: 137px;
+}
+.three_point:hover,
+.four_point:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+	transition: all 0.5s;
+}
+.reg {
+	position: absolute;
+	left: 50%; bottom: -36px;
+	margin-left: -174px;
+	background: #48BC41;
+	background: -moz-linear-gradient(top,  #A40000 0%, #A40000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A40000), color-stop(100%,#3DA33F));
+	background: -webkit-linear-gradient(top,  #A40000 0%,#A40000 100%);
+	background: -o-linear-gradient(top,  #A40000 0%,#A40000 100%);
+	background: -ms-linear-gradient(top,  #A400000%,#A40000 100%);
+	background: linear-gradient(to bottom,  #A40000 0%,#A40000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A40000', endColorstr='#A40000',GradientType=0 );
+	font-family: 'angrybirds';
+	font-size: 30px;
+	color: #e5f6fa;
+	padding: 3px 15px; border:5px solid #fff;
+	border-radius: 30px; cursor: pointer;
+	transition: all 0.2s cubic-bezier(0, 0, 0.58, 1) 0s;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+}
+.reg:hover {
+	box-shadow: 0px 0px 5px 0px #000000 inset;
+	-webkit-box-shadow: 0px 0px 5px 0px #000000 inset;
+	-moz-box-shadow: 0px 0px 5px 0px #000000 inset;	
+	text-decoration: none;
+}
+/* ############# RIGHT ############# */
+.box_acc {
+	background: #3DA33F;
+	border:10px solid #fdfdfd;
+	padding: 10px;
+	box-shadow: 0px 0px 5px 0px #000000, 0px 0px 5px 0px #000000 inset;
+	-webkit-box-shadow: 0px 0px 5px 0px #000000, 0px 0px 5px 0px #000000 inset;
+	-moz-box-shadow: 0px 0px 5px 0px #000000, 0px 0px 5px 0px #000000 inset;
+	margin-bottom: 20px;
+}
+.box_login {
+	background: url(login.png)/*tpa=http://fish-farm.su/img/login.png*/ no-repeat;
+	width: 314px; height: 297px;
+	padding-top: 50px;
+}
+.box_login > div {
+	display: table;
+	margin: 0 auto 0px auto;
+}
+.box_login .inpt {
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f5f5f5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f5f5f5));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f5f5f5 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#f5f5f5 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f5f5f5 100%);
+	background: linear-gradient(to bottom,  #ffffff 0%,#f5f5f5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f5f5f5',GradientType=0 );
+	width: 200px; height: 35px; 
+	padding: 0 10px;
+	border: 3px solid #7FA133;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+
+}
+.box_login .inpt:hover {
+	border-color: #3d626a;
+}
+.box_login .captcha {
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f5f5f5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f5f5f5));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f5f5f5 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#f5f5f5 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f5f5f5 100%);
+	background: linear-gradient(to bottom,  #ffffff 0%,#f5f5f5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f5f5f5',GradientType=0 );
+	width: 120px; height: 35px; 
+	padding: 0 10px;
+	border: 3px solid #7FA133;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+
+}
+.box_login .captcha:hover {
+	border-color: #3d626a;
+}
+.box_login a {color:#fff;}
+button {
+	font-family: 'angrybirds'!important;
+	font-size: 24px!important;
+}
+.btn_login {
+	background: #840000;
+	background: -moz-linear-gradient(top,  #A40000 0%, #A40000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A40000), color-stop(100%,#A40000));
+	background: -webkit-linear-gradient(top,  #A40000 0%,#A40000 100%);
+	background: -o-linear-gradient(top,  #A40000 0%,#A40000 100%);
+	background: -ms-linear-gradient(top,  #A40000 0%,#A40000 100%);
+	background: linear-gradient(to bottom,  #A40000 0%,#A40000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A40000', endColorstr='#A40000',GradientType=0 );
+	border: 3px solid #ffffff; border-radius: 10px;line-height: 35px; margin: 12px 0px; color: #fff; width: 195px;
+	transition: all 0.2s;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+}
+.btn_login:hover {
+	box-shadow: 0px 0px 6px 0px #FFD800 inset;
+}
+
+.box_stat {
+	background: url(stat.png)/*tpa=http://fish-farm.su/img/stat.png*/ no-repeat;
+	width: 314px; height: 297px;
+	padding-top: 60px;
+}
+.box_stat .line,
+.box_bonus .line {
+	font-family: 'angrybirds';
+	font-size: 18px;
+	color: #e5f6fa;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+}
+.btn_reg {
+	background: #79a870;
+	background: -moz-linear-gradient(top,  #0B880F 0%, #0B880F 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0B880F), color-stop(100%,#0B880F));
+	background: -webkit-linear-gradient(top,  #0B880F 0%,#0B880F 100%);
+	background: -o-linear-gradient(top,  #0B880F 0%,#0B880F 100%);
+	background: -ms-linear-gradient(top,  #0B880F 0%,#0B880F 100%);
+	background: linear-gradient(to bottom,  #0B880F 0%,#0B880F 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0B880F', endColorstr='#0B880F',GradientType=0 );
+	border: 3px solid #ffffff; border-radius: 10px;line-height: 35px; margin: 20px 0px; color: #fff; width: 195px;
+	transition: all 0.2s;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+}
+.btn_reg:hover {
+	box-shadow: 0px 0px 6px 0px #FFD800 inset;
+}
+.box_bonus {
+	background: url(bonus.png)/*tpa=http://fish-farm.su/img/bonus.png*/ no-repeat;
+	width: 314px; height: 297px;
+	padding-top: 60px;
+}
+.btn_bonus {
+	display: block;
+	background: #d5002c;
+	background: -moz-linear-gradient(top,  #d5002c 0%, #ba001c 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d5002c), color-stop(100%,#ba001c));
+	background: -webkit-linear-gradient(top,  #d5002c 0%,#ba001c 100%);
+	background: -o-linear-gradient(top,  #d5002c 0%,#ba001c 100%);
+	background: -ms-linear-gradient(top,  #d5002c 0%,#ba001c 100%);
+	background: linear-gradient(to bottom,  #d5002c 0%,#ba001c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5002c', endColorstr='#ba001c',GradientType=0 );
+	border: 1px solid #7a0012; border-radius: 10px;line-height: 35px; margin: 20px 0px; color: #fff; width: 195px;
+	transition: all 0.2s;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+
+}
+.btn_bonus:hover {
+	box-shadow: 0px 0px 6px 0px #434343 inset;
+}
+
+.btn_acc {
+	display: block;
+	background: #fcd303;
+	background: -moz-linear-gradient(top,  #fcd303 0%, #efac1d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcd303), color-stop(100%,#efac1d));
+	background: -webkit-linear-gradient(top,  #fcd303 0%,#efac1d 100%);
+	background: -o-linear-gradient(top,  #fcd303 0%,#efac1d 100%);
+	background: -ms-linear-gradient(top,  #fcd303 0%,#efac1d 100%);
+	background: linear-gradient(to bottom,  #fcd303 0%,#efac1d 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcd303', endColorstr='#efac1d',GradientType=0 );
+	border: 1px solid #b98414; border-radius: 10px;line-height: 35px; margin: 5px 0px; color: #fff; 
+	transition: all 0.2s;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+	font-family: 'angrybirds';
+	font-size: 24px;
+	text-align: center;
+}
+.btn_acc:hover {
+	box-shadow: 0px 0px 6px 0px #434343 inset;
+	text-decoration: none;
+}
+.btn_exit {
+	display: block;
+	background: #d5002c;
+	background: -moz-linear-gradient(top,  #d5002c 0%, #ba001c 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d5002c), color-stop(100%,#ba001c));
+	background: -webkit-linear-gradient(top,  #d5002c 0%,#ba001c 100%);
+	background: -o-linear-gradient(top,  #d5002c 0%,#ba001c 100%);
+	background: -ms-linear-gradient(top,  #d5002c 0%,#ba001c 100%);
+	background: linear-gradient(to bottom,  #d5002c 0%,#ba001c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5002c', endColorstr='#ba001c',GradientType=0 );
+	border: 1px solid #7a0012; border-radius: 10px;line-height: 35px; margin: 5px 0px; color: #fff;
+	transition: all 0.2s;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+	font-family: 'angrybirds';
+	font-size: 24px;
+	text-align: center;
+}
+.btn_exit:hover {
+	box-shadow: 0px 0px 6px 0px #434343 inset;
+	text-decoration: none;
+}
+.play {
+	position: absolute; top: -5px; left: 50px;
+	background: url(play.png)/*tpa=http://fish-farm.su/img/play.png*/ no-repeat;
+	width: 50px;
+	height: 50px; 
+}
+/* ############# COLS ############# */
+.col-left,
+.col-right {
+	float: left;
+}
+.block img {border-radius:10px;}
+.sklad img {border-radius:6px;}
+table img {border-radius:6px;}
+.stars img {margin: 0 2px;}
+.col-md-4 {position: relative;}
+.balance {
+	position: fixed;
+	top: 15px; right: 15px;
+	background: #840000;
+	padding: 10px 7px;
+	width: 180px;
+	box-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+	border-radius:10px;
+	z-index: 1000;
+}
+.balance .btn_acc {
+	font-family: 'Russo One', sans-serif;
+	font-size: 18px;
+	text-align: left;
+	padding-left: 10px;
+}
+/* ############# FOOTER ############# */
+footer {
+	margin: 50px 0 25px 0;
+}
+#imgitems img {cursor:pointer;}

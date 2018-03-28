@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'angrybirds';
+	src: url('angrybirds.eot')/*tpa=http://fish-farm.su/fonts/angrybirds.eot*/;
+	src: local('☺'), url('angrybirds.woff')/*tpa=http://fish-farm.su/fonts/angrybirds.woff*/ format('woff'), url('angrybirds.ttf')/*tpa=http://fish-farm.su/fonts/angrybirds.ttf*/ format('truetype'), url('angrybirds.svg')/*tpa=http://fish-farm.su/fonts/angrybirds.svg*/ format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+

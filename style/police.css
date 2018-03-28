@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'angrybirds';
+	src: url('../fonts/angrybirds.html');
+	src: local('☺'), url('../fonts/angrybirds-2.html') format('woff'), url('../fonts/angrybirds-3.html') format('truetype'), url('../fonts/angrybirds.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
